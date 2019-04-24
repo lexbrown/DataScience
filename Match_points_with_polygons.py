@@ -1,3 +1,6 @@
+#Скрипт сопоставляет точку с полигоном, принадлежит ли.
+#Проблема: сопоставляются модули библиотеки shapely
+
 from shapely.geometry import Point, Polygon
 import geopandas
 
