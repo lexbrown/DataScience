@@ -8,3 +8,4 @@ matrix = np.array([[5, 3, -8, -4],
                    [10, -3, 8, -8]])
 
 print(round(nplin.det(matrix), 3))
+#the answer should be equal to 15
