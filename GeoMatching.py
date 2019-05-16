@@ -22,7 +22,7 @@ for i in range(300):
                 ptz_final.loc[i, 'longitude'] = location.longitude
                 ptz_final.loc[i, 'latitude'] = location.latitude
     if i % 100 == 0:
-            print(i)
+            print(i) #counter
 '''
 geolocator = Nominatim()
 #for i in range(300):
