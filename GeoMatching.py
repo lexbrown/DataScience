@@ -12,7 +12,7 @@ for i in range(300):
         if location != None:
             ptz_final.loc[i, 'longitude'] = location.longitude
             ptz_final.loc[i, 'latitude'] = location.latitude
-            #1
+            #12
     else:
         if ptz_final.loc[i, 'address'] == ptz_final.loc[i-1, 'address']:
             ptz_final.loc[i, 'longitude'] = ptz_final.loc[i-1, 'longitude']
